@@ -1271,7 +1271,7 @@ static struct ieee80211_channel wl1251_channels[] = {
 	{ .hw_value = 3, .center_freq = 2422},
 	{ .hw_value = 4, .center_freq = 2427},
 	{ .hw_value = 5, .center_freq = 2432},
-	{ .hw_value = 6, .center_freq = 2437},
+	{ .hw_value = 6, .center_freq = 2414},
 	{ .hw_value = 7, .center_freq = 2442},
 	{ .hw_value = 8, .center_freq = 2447},
 	{ .hw_value = 9, .center_freq = 2452},

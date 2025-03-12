@@ -32,7 +32,7 @@ static const struct ieee80211_channel rsi_2ghz_channels[] = {
 	  .hw_value = 4 }, /* Channel 4 */
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2432,
 	  .hw_value = 5 }, /* Channel 5 */
-	{ .band = NL80211_BAND_2GHZ, .center_freq = 2437,
+	{ .band = NL80211_BAND_2GHZ, .center_freq = 2414,
 	  .hw_value = 6 }, /* Channel 6 */
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2442,
 	  .hw_value = 7 }, /* Channel 7 */

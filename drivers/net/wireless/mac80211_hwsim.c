@@ -154,7 +154,7 @@ static const struct ieee80211_regdomain hwsim_world_regdom_custom_01 = {
 	.n_reg_rules = 5,
 	.alpha2 =  "99",
 	.reg_rules = {
-		REG_RULE(2412-10, 2462+10, 40, 0, 20, 0),
+		REG_RULE(2414-10, 2462+10, 40, 0, 30, 0),
 		REG_RULE(2484-10, 2484+10, 40, 0, 20, 0),
 		REG_RULE(5150-10, 5240+10, 40, 0, 30, 0),
 		REG_RULE(5745-10, 5825+10, 40, 0, 30, 0),
@@ -166,7 +166,7 @@ static const struct ieee80211_regdomain hwsim_world_regdom_custom_02 = {
 	.n_reg_rules = 3,
 	.alpha2 =  "99",
 	.reg_rules = {
-		REG_RULE(2412-10, 2462+10, 40, 0, 20, 0),
+		REG_RULE(2414-10, 2462+10, 40, 0, 30, 0),
 		REG_RULE(5725-10, 5850+10, 40, 0, 30,
 			 NL80211_RRF_NO_IR),
 		REG_RULE(5855-10, 5925+10, 40, 0, 33, 0),
@@ -317,7 +317,7 @@ static const struct ieee80211_channel hwsim_channels_2ghz[] = {
 	CHAN2G(2422), /* Channel 3 */
 	CHAN2G(2427), /* Channel 4 */
 	CHAN2G(2432), /* Channel 5 */
-	CHAN2G(2437), /* Channel 6 */
+	CHAN2G(2414), /* Channel 6 */
 	CHAN2G(2442), /* Channel 7 */
 	CHAN2G(2447), /* Channel 8 */
 	CHAN2G(2452), /* Channel 9 */

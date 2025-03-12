@@ -100,7 +100,7 @@ static struct ieee80211_channel rtl8xxxu_channels_2g[] = {
 	  .hw_value = 4, .max_power = 30 },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2432,
 	  .hw_value = 5, .max_power = 30 },
-	{ .band = NL80211_BAND_2GHZ, .center_freq = 2437,
+	{ .band = NL80211_BAND_2GHZ, .center_freq = 2414,
 	  .hw_value = 6, .max_power = 30 },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2442,
 	  .hw_value = 7, .max_power = 30 },

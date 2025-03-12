@@ -475,7 +475,7 @@ static const struct ieee80211_channel mt76_channels_2ghz[] = {
 	CHAN2G(3, 2422),
 	CHAN2G(4, 2427),
 	CHAN2G(5, 2432),
-	CHAN2G(6, 2437),
+	CHAN2G(6, 2414),
 	CHAN2G(7, 2442),
 	CHAN2G(8, 2447),
 	CHAN2G(9, 2452),

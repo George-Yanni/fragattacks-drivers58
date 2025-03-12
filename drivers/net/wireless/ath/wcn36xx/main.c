@@ -54,7 +54,7 @@ static struct ieee80211_channel wcn_2ghz_channels[] = {
 	CHAN2G(2422, 3), /* Channel 3 */
 	CHAN2G(2427, 4), /* Channel 4 */
 	CHAN2G(2432, 5), /* Channel 5 */
-	CHAN2G(2437, 6), /* Channel 6 */
+	CHAN2G(2414, 6), /* Channel 6 */
 	CHAN2G(2442, 7), /* Channel 7 */
 	CHAN2G(2447, 8), /* Channel 8 */
 	CHAN2G(2452, 9), /* Channel 9 */

@@ -90,7 +90,7 @@ static struct ieee80211_channel ath6kl_2ghz_channels[] = {
 	CHAN2G(3, 2422, 0),
 	CHAN2G(4, 2427, 0),
 	CHAN2G(5, 2432, 0),
-	CHAN2G(6, 2437, 0),
+	CHAN2G(6, 2414, 0),
 	CHAN2G(7, 2442, 0),
 	CHAN2G(8, 2447, 0),
 	CHAN2G(9, 2452, 0),

@@ -5916,7 +5916,7 @@ static struct ieee80211_channel wl1271_channels[] = {
 	{ .hw_value = 3, .center_freq = 2422, .max_power = WLCORE_MAX_TXPWR },
 	{ .hw_value = 4, .center_freq = 2427, .max_power = WLCORE_MAX_TXPWR },
 	{ .hw_value = 5, .center_freq = 2432, .max_power = WLCORE_MAX_TXPWR },
-	{ .hw_value = 6, .center_freq = 2437, .max_power = WLCORE_MAX_TXPWR },
+	{ .hw_value = 6, .center_freq = 2414, .max_power = WLCORE_MAX_TXPWR },
 	{ .hw_value = 7, .center_freq = 2442, .max_power = WLCORE_MAX_TXPWR },
 	{ .hw_value = 8, .center_freq = 2447, .max_power = WLCORE_MAX_TXPWR },
 	{ .hw_value = 9, .center_freq = 2452, .max_power = WLCORE_MAX_TXPWR },

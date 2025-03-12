@@ -85,7 +85,7 @@ static struct ieee80211_channel rtw_2ghz_channels[] = {
 	CHAN2G(3, 2422, 0),
 	CHAN2G(4, 2427, 0),
 	CHAN2G(5, 2432, 0),
-	CHAN2G(6, 2437, 0),
+	CHAN2G(6, 2414, 0),
 	CHAN2G(7, 2442, 0),
 	CHAN2G(8, 2447, 0),
 	CHAN2G(9, 2452, 0),
@@ -209,7 +209,7 @@ static int rtw_ieee80211_channel_to_frequency(int chan, int band)
 		if (chan == 14)
 			return 2484;
              else if (chan < 14)
-			return 2407 + chan * 5;
+			return 2384 + chan * 5;
 	}
 
 	return 0; /* not supported */

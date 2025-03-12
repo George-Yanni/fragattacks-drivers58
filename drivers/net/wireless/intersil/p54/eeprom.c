@@ -573,7 +573,7 @@ static int p54_parse_rssical(struct ieee80211_hw *dev,
 			u16 freq = 0;
 			switch (i) {
 			case NL80211_BAND_2GHZ:
-				freq = 2437;
+				freq = 2414;
 				break;
 			case NL80211_BAND_5GHZ:
 				freq = 5240;

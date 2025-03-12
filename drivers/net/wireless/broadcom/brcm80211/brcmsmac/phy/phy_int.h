@@ -63,7 +63,7 @@ struct brcms_phy_srom_fem {
 #define BASE_HIGH_5G_CHAN	5500
 
 #define CHAN5G_FREQ(chan)  (5000 + chan*5)
-#define CHAN2G_FREQ(chan)  (2407 + chan*5)
+#define CHAN2G_FREQ(chan)  (2384 + chan*5)
 
 #define TXP_FIRST_CCK		0
 #define TXP_LAST_CCK		3

@@ -145,7 +145,7 @@ static const struct ar9300_eeprom ar9300_default = {
 	},
 	.calFreqPier2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1),
 	 },
 	/* ar9300_cal_data_per_freq_op_loop 2g */
@@ -160,17 +160,17 @@ static const struct ar9300_eeprom ar9300_default = {
 	 },
 	.calTarget_freqbin_2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT20 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT40 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTargetPowerCck = {
@@ -723,7 +723,7 @@ static const struct ar9300_eeprom ar9300_x113 = {
 	 },
 	.calFreqPier2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1),
 	 },
 	/* ar9300_cal_data_per_freq_op_loop 2g */
@@ -738,17 +738,17 @@ static const struct ar9300_eeprom ar9300_x113 = {
 	 },
 	.calTarget_freqbin_2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT20 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT40 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTargetPowerCck = {
@@ -1302,7 +1302,7 @@ static const struct ar9300_eeprom ar9300_h112 = {
 	},
 	.calFreqPier2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2462, 1),
 	},
 	/* ar9300_cal_data_per_freq_op_loop 2g */
@@ -1317,17 +1317,17 @@ static const struct ar9300_eeprom ar9300_h112 = {
 	},
 	.calTarget_freqbin_2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTarget_freqbin_2GHT20 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTarget_freqbin_2GHT40 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTargetPowerCck = {
@@ -1881,7 +1881,7 @@ static const struct ar9300_eeprom ar9300_x112 = {
 	},
 	.calFreqPier2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1),
 	},
 	/* ar9300_cal_data_per_freq_op_loop 2g */
@@ -1896,17 +1896,17 @@ static const struct ar9300_eeprom ar9300_x112 = {
 	},
 	.calTarget_freqbin_2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTarget_freqbin_2GHT20 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTarget_freqbin_2GHT40 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	},
 	.calTargetPowerCck = {
@@ -2459,7 +2459,7 @@ static const struct ar9300_eeprom ar9300_h116 = {
 	 },
 	.calFreqPier2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2462, 1),
 	 },
 	/* ar9300_cal_data_per_freq_op_loop 2g */
@@ -2474,17 +2474,17 @@ static const struct ar9300_eeprom ar9300_h116 = {
 	 },
 	.calTarget_freqbin_2G = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT20 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTarget_freqbin_2GHT40 = {
 		FREQ2FBIN(2412, 1),
-		FREQ2FBIN(2437, 1),
+		FREQ2FBIN(2414, 1),
 		FREQ2FBIN(2472, 1)
 	 },
 	.calTargetPowerCck = {

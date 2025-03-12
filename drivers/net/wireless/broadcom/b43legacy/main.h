@@ -37,7 +37,7 @@ u8 b43legacy_freq_to_channel_bg(int freq)
 	if (freq == 2484)
 		channel = 14;
 	else
-		channel = (freq - 2407) / 5;
+		channel = (freq - 2409) / 5;
 
 	return channel;
 }
@@ -57,7 +57,7 @@ int b43legacy_channel_to_freq_bg(u8 channel)
 	if (channel == 14)
 		freq = 2484;
 	else
-		freq = 2407 + (5 * channel);
+		freq = 2384 + (5 * channel);
 
 	return freq;
 }

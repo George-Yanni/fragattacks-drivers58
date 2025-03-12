@@ -121,7 +121,7 @@ static struct ieee80211_channel b43legacy_bg_chantable[] = {
 	CHANTAB_ENT(3, 2422),
 	CHANTAB_ENT(4, 2427),
 	CHANTAB_ENT(5, 2432),
-	CHANTAB_ENT(6, 2437),
+	CHANTAB_ENT(6, 2414),
 	CHANTAB_ENT(7, 2442),
 	CHANTAB_ENT(8, 2447),
 	CHANTAB_ENT(9, 2452),

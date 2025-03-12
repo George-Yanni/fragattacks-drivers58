@@ -52,7 +52,7 @@ static int rtw_ieee80211_channel_to_frequency(int chan, int band)
 	if (chan == 14)
 		return 2484;
 	else if (chan < 14)
-		return 2407 + chan * 5;
+		return 2384 + chan * 5;
 	else
 		return 0;	/* not supported */
 }

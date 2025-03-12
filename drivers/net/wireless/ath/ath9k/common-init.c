@@ -22,7 +22,7 @@
 	.band = NL80211_BAND_2GHZ, \
 	.center_freq = (_freq), \
 	.hw_value = (_idx), \
-	.max_power = 20, \
+	.max_power = 30, \
 }
 
 #define CHAN5G(_freq, _idx) { \
@@ -42,7 +42,7 @@ static const struct ieee80211_channel ath9k_2ghz_chantable[] = {
 	CHAN2G(2422, 2), /* Channel 3 */
 	CHAN2G(2427, 3), /* Channel 4 */
 	CHAN2G(2432, 4), /* Channel 5 */
-	CHAN2G(2437, 5), /* Channel 6 */
+	CHAN2G(2414, 5), /* Channel 6 */
 	CHAN2G(2442, 6), /* Channel 7 */
 	CHAN2G(2447, 7), /* Channel 8 */
 	CHAN2G(2452, 8), /* Channel 9 */

@@ -23,7 +23,7 @@
 static inline u16 channel2freq_lp(u8 channel)
 {
 	if (channel < 14)
-		return (2407 + 5 * channel);
+		return (2384 + 5 * channel);
 	else if (channel == 14)
 		return 2484;
 	else if (channel < 184)
@@ -2016,7 +2016,7 @@ static const struct b206x_channel b2062_chantbl[] = {
 	{ .channel = 5, .freq = 2432, .data[0] = 0xFF, .data[1] = 0xFF,
 	  .data[2] = 0xB5, .data[3] = 0x1B, .data[4] = 0x24, .data[5] = 0x32,
 	  .data[6] = 0x32, .data[7] = 0x88, .data[8] = 0x88, },
-	{ .channel = 6, .freq = 2437, .data[0] = 0xFF, .data[1] = 0xFF,
+	{ .channel = 6, .freq = 2414, .data[0] = 0xFF, .data[1] = 0xFF,
 	  .data[2] = 0xB5, .data[3] = 0x1B, .data[4] = 0x24, .data[5] = 0x32,
 	  .data[6] = 0x32, .data[7] = 0x88, .data[8] = 0x88, },
 	{ .channel = 7, .freq = 2442, .data[0] = 0xFF, .data[1] = 0xFF,
@@ -2177,7 +2177,7 @@ static const struct b206x_channel b2063_chantbl[] = {
 	  .data[2] = 0x2C, .data[3] = 0x04, .data[4] = 0x05, .data[5] = 0x05,
 	  .data[6] = 0x05, .data[7] = 0x05, .data[8] = 0x77, .data[9] = 0x80,
 	  .data[10] = 0x80, .data[11] = 0x70, },
-	{ .channel = 6, .freq = 2437, .data[0] = 0x6F, .data[1] = 0x2C,
+	{ .channel = 6, .freq = 2414, .data[0] = 0x6F, .data[1] = 0x2C,
 	  .data[2] = 0x2C, .data[3] = 0x04, .data[4] = 0x05, .data[5] = 0x05,
 	  .data[6] = 0x05, .data[7] = 0x05, .data[8] = 0x77, .data[9] = 0x80,
 	  .data[10] = 0x80, .data[11] = 0x70, },

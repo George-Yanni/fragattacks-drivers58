@@ -143,7 +143,7 @@ static struct ieee80211_rate __wl_rates[] = {
 
 static struct ieee80211_channel __wl_2ghz_channels[] = {
 	CHAN2G(1, 2412), CHAN2G(2, 2417), CHAN2G(3, 2422), CHAN2G(4, 2427),
-	CHAN2G(5, 2432), CHAN2G(6, 2437), CHAN2G(7, 2442), CHAN2G(8, 2447),
+	CHAN2G(5, 2432), CHAN2G(6, 2414), CHAN2G(7, 2442), CHAN2G(8, 2447),
 	CHAN2G(9, 2452), CHAN2G(10, 2457), CHAN2G(11, 2462), CHAN2G(12, 2467),
 	CHAN2G(13, 2472), CHAN2G(14, 2484)
 };

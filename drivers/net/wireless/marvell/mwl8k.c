@@ -351,7 +351,7 @@ static const struct ieee80211_channel mwl8k_channels_24[] = {
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2422, .hw_value = 3, },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2427, .hw_value = 4, },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2432, .hw_value = 5, },
-	{ .band = NL80211_BAND_2GHZ, .center_freq = 2437, .hw_value = 6, },
+	{ .band = NL80211_BAND_2GHZ, .center_freq = 2414, .hw_value = 6, },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2442, .hw_value = 7, },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2447, .hw_value = 8, },
 	{ .band = NL80211_BAND_2GHZ, .center_freq = 2452, .hw_value = 9, },

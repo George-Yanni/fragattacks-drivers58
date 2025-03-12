@@ -98,7 +98,7 @@ static struct ieee80211_channel carl9170_2ghz_chantable[] = {
 	CHAN(2422,  2),
 	CHAN(2427,  3),
 	CHAN(2432,  4),
-	CHAN(2437,  5),
+	CHAN(2414,  5),
 	CHAN(2442,  6),
 	CHAN(2447,  7),
 	CHAN(2452,  8),

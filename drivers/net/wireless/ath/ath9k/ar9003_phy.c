@@ -388,7 +388,7 @@ static void ar9003_hw_spur_ofdm(struct ath_hw *ah,
 	REG_RMW_FIELD(ah, AR_PHY_TIMING11,
 		      AR_PHY_TIMING11_USE_SPUR_FILTER_IN_AGC, 0x1);
 
-	if (!(AR_SREV_9565(ah) && range == 10 && synth_freq == 2437))
+	if (!(AR_SREV_9565(ah) && range == 10 && synth_freq == 2414))
 		REG_RMW_FIELD(ah, AR_PHY_TIMING11,
 			      AR_PHY_TIMING11_USE_SPUR_FILTER_IN_SELFCOR, 0x1);
 
